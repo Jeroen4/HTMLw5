@@ -1,3 +1,6 @@
+
+/*--------------------------------------------------------BODY---------------------------------------*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,6 +8,9 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
+/*--------------------------------------------------------TEXT---------------------------------------*/
+
 .container{
 	width: 60%;
 	height: 100%;
@@ -32,6 +38,20 @@ h2{
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+
+#tip{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #def6ed;
+	font-size: 20px;
+	line-height: 24px;
+	border-radius: 4px;
+	padding: 25px;
+}
+
+/*--------------------------------------------------------LISTS--------------------------------------*/
+
+
 ul,ol{
 	margin-left: 30px;
 }
@@ -48,19 +68,17 @@ ol li{
 	font-size: 20px;
 	line-height: 24px;
 }
+
+/*--------------------------------------------------------IMAGE--------------------------------------*/
+
+
 img{
 	width: 75%;
 	height: 60%;
 }
-#tip{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	background-color: #def6ed;
-	font-size: 20px;
-	line-height: 24px;
-	border-radius: 4px;
-	padding: 25px;
-}
+
+/*--------------------------------------------------------NAVBAR-------------------------------------*/
+
 nav{
 	width: 300px;
 	position: absolute;
@@ -91,6 +109,12 @@ nav ul a li:hover{
 	color: white;
 	-webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+}
+
+nav ul a.current{
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	color: white;
 }
 
 /*--------------------------------------------------------SCROLLBAR----------------------------------*/
