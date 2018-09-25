@@ -127,10 +127,6 @@ nav ul li.current{
   width: 12px;
 }
 
-::-webkit-scrollbar-track {
-  background-color: rgba(0,0,0,0.6); 
-}
-
 ::-webkit-scrollbar-thumb {
   background-color: rgb(0, 0, 0);
 }
