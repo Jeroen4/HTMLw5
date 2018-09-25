@@ -51,7 +51,6 @@ h2{
 
 /*--------------------------------------------------------LISTS--------------------------------------*/
 
-
 ul,ol{
 	margin-left: 30px;
 }
@@ -70,7 +69,6 @@ ol li{
 }
 
 /*--------------------------------------------------------IMAGE--------------------------------------*/
-
 
 img{
 	width: 75%;
@@ -128,9 +126,9 @@ nav ul li.current{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgb(0, 0, 0); 
 }
