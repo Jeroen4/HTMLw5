@@ -40,7 +40,7 @@ h2{
 }
 
 #tip{
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	background-color: #def6ed;
 	font-size: 20px;
@@ -73,6 +73,8 @@ ol li{
 img{
 	width: 75%;
 	height: 60%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 /*--------------------------------------------------------NAVBAR-------------------------------------*/
